@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD - Using AJAX</title>
+  </head>
+  <body>
+    <h1>CRUD API REST - AJAX</h1>
+    <section class="crud">
+      <article class="form">
+        <h2 class="crud-title">Agregar Platos</h2>
+        <form class="form">
+          <input
+            type="text"
+            name="name"
+            placeholder="nombre plato"
+            required
+          /><br />
+          <input type="text" name="price" placeholder="valor pesos" required />
+          <input type="submit" value="Enviar" />
+          <input type="hidden" name="action" />
+        </form>
+      </article>
+      <article class="data">
+        <h2>Ver Platos</h2>
+        <table class="crud-table">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Precio</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </article>
+    </section>
+    <template id="crudTemplate">
+      <tr>
+        <td>Hallacas</td>
+        <td>3000</td>
+        <td>
+          <button>Editar</button>
+          <button>Eliminar</button>
+        </td>
+      </tr>
+    </template>
+    <script src="./scripts.js"></script>
+  </body>
+</html>

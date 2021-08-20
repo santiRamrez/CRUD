@@ -1,0 +1,41 @@
+{
+  "deserts": [
+    {
+      "id": 1,
+      "name": "Torta de Zapallo",
+      "price": 2590
+    },
+    {
+      "id": 2,
+      "name": "Torta Navideña",
+      "price": 4900
+    },
+    {
+      "name": "Flan - Quesillo",
+      "price": 10000,
+      "id": 3
+    }
+  ],
+  "salad-food": [
+    {
+      "id": 1,
+      "name": "Pan de Jamón",
+      "price": 10000
+    },
+    {
+      "id": 2,
+      "name": "Arepas",
+      "price": 1500
+    },
+    {
+      "id": 3,
+      "name": "Hallacas",
+      "price": 3000
+    },
+    {
+      "id": 4,
+      "name": "Empanadas",
+      "price": 1500
+    }
+  ]
+}
