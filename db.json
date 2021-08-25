@@ -14,6 +14,11 @@
       "name": "Flan - Quesillo",
       "price": 10000,
       "id": 3
+    },
+    {
+      "price": 2900,
+      "name": "majarete",
+      "id": 4
     }
   ],
   "salad-food": [
@@ -33,9 +38,9 @@
       "price": 3000
     },
     {
-      "id": 4,
-      "name": "Empanadas",
-      "price": 1500
+      "name": "Yuca Frita",
+      "price": "2500",
+      "id": 4
     }
   ]
 }
