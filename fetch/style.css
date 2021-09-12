@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 24px auto;
+}
+
+.crud {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 16px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  width: 150px;
+  height: 120px;
+}
+
+input[type="text"] {
+  padding: 5px 7px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  margin: 10px auto;
+}
+
+.data {
+  width: 400px;
+}
+
+.data h2 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 24px;
+}
+
+.crud-table {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.crud-table thead tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.crud-table tbody tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.crud-table tbody tr td {
+  padding: 5px 7px;
+  text-align: center;
+  width: 33%;
+}
